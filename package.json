@@ -1,0 +1,23 @@
+{
+  "name": "conexion-azure-sql",
+  "version": "1.0.0",
+  "description": "Proyecto prueba coneccion BD en Azure",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "Dante Delprato",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.0",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.1",
+    "sequelize": "^6.37.7"
+  }
+}

@@ -1,0 +1,75 @@
+/* Aqui generalmente van los estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/*estilos de titulos h1, h2, h3*/
+h1,
+h2,
+h3 {
+  color: dodgerblue;
+  margin-bottom: 10px;
+}
+
+/*le sacaremos todos los estilos a los links*/
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*estilo del header*/
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*estilos de los enlaces de navegacion*/
+/*tambien le sacamos las propiedades de link a cada elemento*/
+.nav-links {
+  list-style: none;
+  padding: 0;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-links__link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links__link:hover {
+  cursor: pointer;
+}
+
+/*estilos del main*/
+main {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 0 15px 20px 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*estilos del footer*/
+/*lo plantearemos de tal manera que el footer siempre este pegado al fondo de la pagina*/
+footer {
+  background-color: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
