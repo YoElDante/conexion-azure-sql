@@ -385,50 +385,55 @@ Este diagrama muestra de forma clara:
 2. **Separación de entornos y finalidad de cada uno.**
 3. **Interacciones críticas con servicios externos y bases de datos.**
 
-+-------------------------+
-|     VSCode +            |
-|  GitHub Copilot         |
-+--------+----------------+
+```
++------------------+
+|     VSCode +     |
+|  GitHub Copilot  |
++--------+---------+
          |        
          v        
-+-------------------------+
-|   Entorno DEV           |  ← Local + Base de datos Azure SQL de pruebas
-| - Desarrollo de         |
-|   funcionalidades       |
-| - Pruebas unitarias     |
-| - Linting & ESLint      |
-+--------+----------------+
++---------------------+
+|   Entorno DEV       |  ← Local +  
+| - Desarrollo de     |    Base de datos 
+|   funcionalidades   |    Azure SQL 
+| - Pruebas unitarias |    de pruebas
+| - Linting & ESLint  |
++--------+------------+
          |        
          v        
-+-------------------------+
-|    Entorno QA           |  ← Azure App Service de prueba
-| - Pruebas de            |
-|   integración           |
-| - Validación de         |
-|   endpoints REST        |
-| - Simulación de         |
-|   pagos/QR              |
-+--------+----------------+
++-------------------+
+|    Entorno QA     |  ← Azure App  
+| - Pruebas de      |    Service 
+|   integración     |    de prueba
+| - Validación de   |
+|   endpoints REST  |
+| - Simulación de   |
+|   pagos/QR        |
++--------+----------+
          |        
          v        
-+-------------------------+
-|  Entorno STAGING        |  ← Réplica exacta de PROD
-| - Validación final      |
-| - Integración con       |
-|   fintechs reales       |
-| - Pruebas completas     |
-|   flujo de pagos        |
-+--------+----------------+
++---------------------+
+|  Entorno STAGING    |  ← Réplica  
+| - Validación final  |    exacta 
+| - Integración con   |    de PROD
+|   fintechs reales   |
+| - Pruebas completas |
+|   flujo de pagos    |
++--------+------------+
          |        
          v        
-+-------------------------+
-|   Entorno PROD          |  ← App Service + Base Azure SQL compartida con ALCALD+ÍA
-| - Usuarios finales      |
-| - Monitoreo activo      |
-| - Alta disponibilidad   |
-| - Confirmación de       |
-|   pagos en tiempo real  |
-+-------------------------+
++---------------------+
+|   Entorno PROD      |  ← App Service + 
+| - Usuarios finales  |    Base Azure SQL 
+| - Monitoreo activo  |    compartida con 
+| - Alta              |    ALCALD+ÍA
+|   disponibilidad    |    
+| - Confirmación de   |
+|   pagos en          |
+|   tiempo real       |
++---------------------+
+
+```
 
 Notas adicionales:
 - CI/CD automatizado mediante GitHub Actions / Azure DevOps Pipelines.
