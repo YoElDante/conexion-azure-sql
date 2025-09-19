@@ -183,12 +183,6 @@ El portal permitirá:
 
 ---
 
-19-09-25-1532-05
-
-Perfecto, Dante 👌. Tomé tus observaciones y corrijo el **punto 3 del backlog** para que quede alineado al proyecto, tu stack real, y las buenas prácticas. Te lo presento ya ajustado:
-
----
-
 ## 3. Arquitectura y Tecnologías
 
 ### 3.1 Tecnologías principales
