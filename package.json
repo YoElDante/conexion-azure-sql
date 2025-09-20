@@ -8,6 +8,7 @@
     "dev": "node --watch server.js"
   },
   "keywords": [],
+  "type": "module",
   "author": "Dante Delprato",
   "license": "ISC",
   "packageManager": "pnpm@10.17.0",
