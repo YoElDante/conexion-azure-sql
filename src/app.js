@@ -14,16 +14,26 @@
  */
 
 // ------- IMPORTANDO MODULOS -------
-const express = require('express');
-const app = express();
 
-const path = require('node:path');
-const cookieParser = require('cookie-parser');
-const logger = require('morgan');
+import express from 'express';
+import cookieParser from 'cookie-parser';
+import logger from 'morgan';
+import expressLayouts from 'express-ejs-layouts'
+
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const app = express();
 
 // ------- CONFIGURACIÓN DEL MOTOR DE VISTAS -------
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.use(expressLayouts);
+app.set('layout', 'layouts/main'); // Layout principal
+
 
 // ------- MIDDLEWARES GLOBALES -------
 app.use(logger('dev'));
@@ -34,13 +44,17 @@ app.use(cookieParser());
 
 app.use(express.static(path.join(__dirname, '../public')));
 
+import { setGlobals } from './middlewares/locals.middleware.js';
+app.use(setGlobals);
+
+
 // ------- INGRESO A SISTEMA DE RUTAS -------
-const indexRouter = require('./routes/index.router.js');
+import indexRouter from './routes/index.router.js';
 app.use('/', indexRouter);
 
 // ------- MANEJO DE RUTAS ERRONEAS -------
-const errorHandler = require('./middlewares/error.handler.js');
+import errorHandler from './middlewares/error.handler.js';
 app.use(errorHandler.notFound);
 app.use(errorHandler.generalError);
 
-module.exports = app;
+export default app;

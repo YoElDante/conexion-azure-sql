@@ -1,5 +1,37 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database.config');
+/**
+ * Modelo Sequelize para la tabla Clientes.
+ * Representa a los clientes en la base de datos.
+ * 
+ * Campos principales:
+ * - Codigo (PK): Código único del cliente (char(7))
+ * - NombreFantasia: Nombre del cliente (varchar(40))
+ * - DesHabilitado: Indica si el cliente está deshabilitado (bit)
+ * - Direccion: Dirección del cliente (varchar(50))
+ * - Telefono: Teléfono del cliente (varchar(30))
+ * - Email: Email del cliente (varchar(120))
+ * - Cuit: CUIT del cliente (varchar(13))
+ * - FechaAlta: Fecha de alta del cliente (datetime)
+ * - Observaciones: Observaciones adicionales (varchar(200))
+ * - ClienteGrupo: Código del grupo al que pertenece (char(7))
+ * - MaxLimCred: Límite máximo de crédito (decimal)
+ * - CondicionPago: Condición de pago (char(3))
+ * - Vendedor: Código del vendedor asignado (char(3))
+ * - IDENTIFICADOR: Identificador único (char(6))
+ * - DOCUMENTO: Documento del cliente (char(8))
+ * Relaciones:
+ * - Un cliente puede tener muchas facturas (hasMany Factura)
+ * - Un cliente puede tener muchas cuentas corrientes (hasMany CuentaCorriente)
+ * - Un cliente puede tener muchos recibos (hasMany Recibo)
+ * - Pertenece a un grupo de clientes (belongsTo ClienteGrupo)
+ * - Pertenece a un vendedor (belongsTo Vendedor)
+ * @author Dante Marcos Delprato
+ * @version 1.0
+ * @date 2025-09-23
+ */
+
+import { DataTypes } from 'sequelize';
+import sequelize from '../config/database.config.js';
+
 
 const Cliente = sequelize.define('Cliente', {
   Codigo: {
@@ -232,4 +264,4 @@ Cliente.associate = (models) => {
 };
 */
 
-module.exports = Cliente;
+export default Cliente;

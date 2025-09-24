@@ -7,19 +7,18 @@
  *
  * @author Dante Marcos Delprato
  * @version 1.0
- * @date 2025-09-18
+ * @date 2025-09-23
  */
 
-var express = require('express');
-var router = express.Router();
+import express from 'express';
+const router = express.Router();
 
 /* Requiriendo Todas las Rutas */
-const mainRouter = require('./home.routes');
-const userRouter = require('./users.routes');
+import mainRouter from './home.routes.js';
+import userRouter from './users.routes.js';
 
 /* Derivando las Rutas */
 router.use('/', mainRouter);
 router.use('/users', userRouter);
 
-
-module.exports = router;
+export default router;

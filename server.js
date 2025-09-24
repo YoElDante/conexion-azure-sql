@@ -10,11 +10,10 @@
  * @date 2025-09-18
  */
 
+import http from 'node:http';
+import app from './src/app.js';
 
-const http = require('http');
-const app = require('./src/app');
-
-const config = require('./src/config/config');
+import config from './src/config/config.js';
 
 const PORT = config.server.port;
 

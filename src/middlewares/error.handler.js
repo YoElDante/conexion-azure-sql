@@ -13,7 +13,7 @@
  * @date 2025-09-18
  */
 
-const createError = require('http-errors');
+import createError from 'http-errors';
 
 const errorHandler = {
   // Middleware para manejar 404
@@ -33,4 +33,4 @@ const errorHandler = {
   }
 }
 
-module.exports = errorHandler;
+export default errorHandler;

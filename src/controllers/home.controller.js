@@ -1,7 +1,11 @@
 const controller = {
   home: (req, res, next) => {
-    res.render('pages/home', { title: 'Express' });
+    res.render('pages/home', {
+      title: 'Portal de pagos - Municipalidad de Tinoco',
+      //layout: 'layouts/main',
+      muni: 'Tinoco'
+    });
   },
 }
 
-module.exports = controller;
+export default controller;
