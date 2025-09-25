@@ -1,4 +1,4 @@
-# 📓 Diario de Desarrollo — 22-09-2025 — miercoles
+# 📓 Diario de Desarrollo — 24-09-2025 — miercoles
 ## 🏃 Sprint
 - Sprint nro: 00
 - Semana: 01
@@ -43,7 +43,7 @@
 
  - Planificado: 8 horas
 
- - Inicio: 03:00 am
+ - Inicio: 21:00
 
  - Real:
 
