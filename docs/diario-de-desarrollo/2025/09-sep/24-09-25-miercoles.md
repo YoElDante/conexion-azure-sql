@@ -47,19 +47,22 @@
 
  - Real:
 
-  1. 21:00 – 00:00 → 2:30h
-  2. --:-- – --:-- → break (no contabilizado)
-  3. --:-- – --:-- → 3:30h
-  3. --:-- – --:-- → break (no contabilizado)
-  3. --:-- – --:-- → 2:30h
+  1. 21:00 – 21:50 → 0:50h
+  2. 21:50 – 22:10 → break (no contabilizado)
+  3. 22:10 – 00:00 → 1:50h
+  3. 00:00 – 01:30 → break (no contabilizado)
+  3. 01:30 – 03:00 → 1:30h
+  4. 03:00 - 04:00 → break (no contabilizado)
+  5. 04:00 - 05:00 → 1:00
 
- - Total horas trabajadas: -:-- + -:-- + -:--  = **8 horas y 30 minutos**
+ - Total horas trabajadas: 0:50 + 1:50 + 1:20 + 1:00  = **5 horas y 10 minutos**
 
 ## 📚 Lecciones Aprendidas / Notas útiles
 - Qué funcionó bien
   * 
 
 - Lo que evitaría la próxima vez
+  * totalmente desconcentrado
 
 ## 🔮 Lo que voy a hacer mañana
 - Prioridades
@@ -72,4 +75,9 @@
 
 ## Detallado de actividades
 
- - 21:00 - Inicio Actividades
+ - 21:00 - Inicio Actividades - Entendiendo la BD, generando archivos.csv para comprobar relacioens, generando diagramas ER
+ - 22:10 - Se generan tablas en excel .csv (tablas en texto plano con divisiones por comas), para interpretarlas y entender las relaciones entre tablas. Se generan de nuevo diagramas ER mas completos
+ - 01:30 - Se repasan conceptos de SQL y teoria para poder hacer las consultas correspondientes. Se estudia formato mermaid y pagina para generar Diagramas de entidades https://www.mermaidchart.com/
+ - 02:00 - Se estudia el código brindado de pyton entendiendo desde donde surgen los saldos pendientes de pago. 
+ - 04:00 - Analisis completo del proceso lógico de consulta a la BD [`/consultaSQL`](./src/bd/consultaSQL.sql)
+ - 05:00 - Corto actividad por que estoy totalmente perdido y disperso. Desconcentrado.

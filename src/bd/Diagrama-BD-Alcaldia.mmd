@@ -1,0 +1,111 @@
+erDiagram
+	direction TB
+	CLIENTES {
+		char(7) Codigo PK ""  
+		varchar Nombre  ""  
+		varchar Apellido  ""  
+		varchar Cuit  ""  
+		varchar Documento  ""  
+	}
+
+	AUTOMOTORES {
+		int IdTrans PK ""  
+		char(7) Codigo FK ""  
+		varchar Dominio  ""  
+	}
+
+	CLIENTESCTACTE {
+		int IdTrans PK ""  
+		char(7) Codigo FK ""  
+		decimal Importe  ""  
+		decimal Saldo  ""  
+		varchar Detalle  ""  
+	}
+
+	COBROSCTACTE {
+		int IdTrans PK ""  
+		char(7) Codigo FK ""  
+		decimal Importe  ""  
+		decimal Saldo  ""  
+		varchar Detalle  ""  
+	}
+
+	AGUA2025 {
+		char(7) Codigo FK ""  
+		decimal Importe  ""  
+		decimal Saldo  ""  
+	}
+
+	CATASTRO25 {
+		char(7) Codigo FK ""  
+		decimal Importe  ""  
+		decimal Saldo  ""  
+	}
+
+	PROVEEDORES {
+		char(6) Codigo PK ""  
+		varchar RazonSocial  ""  
+	}
+
+	PROVEEDORESCTACTE {
+		int IdTrans PK ""  
+		char(6) Codigo FK ""  
+		decimal Importe  ""  
+		decimal Saldo  ""  
+	}
+
+	PERSONAL {
+		int IdTrans PK ""  
+		varchar(6) IDENTIFICADOR  ""  
+		varchar(7) Codigo FK ""  
+	}
+
+	PERSONALCTACTE {
+		int IdTrans PK ""  
+		varchar(5) Legajo FK ""  
+		decimal Importe  ""  
+		decimal Saldo  ""  
+	}
+
+	CATASTRO {
+		int IdTrans PK ""  
+		varchar(7) Codigo FK ""  
+	}
+
+	AGUACLIENTES {
+		int IdTrans PK ""  
+		varchar(7) Codigo FK ""  
+	}
+
+	CEMENTERIOCLIENTES {
+		int IdTrans PK ""  
+		varchar(7) Codigo FK ""  
+	}
+
+	CI_CLIENTESACTIVIDADES {
+		int IdTrans PK ""  
+		varchar(7) Codigo FK ""  
+	}
+
+	PAVIMENTOCLIENTES {
+		int IdTrans PK ""  
+		varchar(7) Codigo FK ""  
+	}
+
+	Untitled-Entity {
+
+	}
+
+	CLIENTES||--o{AUTOMOTORES:"tiene"
+	CLIENTES||--o{CLIENTESCTACTE:"tiene"
+	CLIENTES||--o{COBROSCTACTE:"tiene"
+	CLIENTES||--o{AGUA2025:"tiene"
+	CLIENTES||--o{CATASTRO25:"tiene"
+	CLIENTES||--o{AGUACLIENTES:"tiene"
+	CLIENTES||--o{CEMENTERIOCLIENTES:"tiene"
+	CLIENTES||--o{CI_CLIENTESACTIVIDADES:"tiene"
+	CLIENTES||--o{PAVIMENTOCLIENTES:"tiene"
+	PROVEEDORES||--o{PROVEEDORESCTACTE:"tiene"
+	PERSONAL||--o{PERSONALCTACTE:"tiene"
+	CLIENTES||--o{CATASTRO:"tiene"
+
