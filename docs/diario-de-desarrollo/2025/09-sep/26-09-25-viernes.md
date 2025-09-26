@@ -1,4 +1,4 @@
-# 📓 Diario de Desarrollo — 25-09-2025 — jueves
+# 📓 Diario de Desarrollo — 26-09-2025 — viernes
 ## 🏃 Sprint
 - Sprint nro: 00
 - Semana: 01
@@ -45,15 +45,15 @@
 
  - Real:
 
-  1. 10:00 – 12:00 → 2:00h
-  2. 12:00 – 16:00 → break (no contabilizado)
-  3. 16:00 – 18:00 → 2:00h
+  1. 11:30 – --:00 → -:00h
+  2. --:00 – --:-- → break (no contabilizado)
+  3. --:00 – --:00 → -:00h
   3. --:-- – --:-- → break (no contabilizado)
   3. --:-- – --:-- → -:--h
   4. --:-- - --:-- → break (no contabilizado)
   5. --:-- - --:-- → -:--h
 
- - Total horas trabajadas: 2:00 + 2:00 + -:-- + -:--  = **4 horas y -- minutos**
+ - Total horas trabajadas: 2:00 + -:00 + -:-- + -:--  = **- horas y -- minutos**
 
 ## 📚 Lecciones Aprendidas / Notas útiles
 - Qué funcionó bien
@@ -73,4 +73,4 @@
 
 ## Detallado de actividades
 
- - 10:00 - Repaso de teoria del ORM y de SQL
+ - 11:30 - Repaso de teoria del ORM y de SQL
