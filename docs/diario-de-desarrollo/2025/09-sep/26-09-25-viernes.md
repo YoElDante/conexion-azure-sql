@@ -15,7 +15,8 @@
 
 
 ## ✅ Logros
-- Tareas completadas  
+- Tareas completadas
+ * sin novedad
 
 - Funcionalidades implementadas
   * sin novedad
@@ -45,15 +46,11 @@
 
  - Real:
 
-  1. 11:30 – --:00 → -:00h
-  2. --:00 – --:-- → break (no contabilizado)
-  3. --:00 – --:00 → -:00h
-  3. --:-- – --:-- → break (no contabilizado)
-  3. --:-- – --:-- → -:--h
-  4. --:-- - --:-- → break (no contabilizado)
-  5. --:-- - --:-- → -:--h
+  1. 11:30 – 13:00 → 1:30h
+  2. 13:00 – 15:30 → break (no contabilizado)
+  3. 15:30 – 20:00 → 4:30h
 
- - Total horas trabajadas: 2:00 + -:00 + -:-- + -:--  = **- horas y -- minutos**
+ - Total horas trabajadas: 1:30 + 4:30   = **6 horas y 00 minutos**
 
 ## 📚 Lecciones Aprendidas / Notas útiles
 - Qué funcionó bien
