@@ -1,4 +1,4 @@
-# 📓 Diario de Desarrollo — 30-09-2025 — martes
+# 📓 Diario de Desarrollo — 01-10-2025 — miercoles
 ## 🏃 Sprint
 - Sprint nro: 00
 - Semana: 02
@@ -13,6 +13,7 @@
 - Estimación de tiempo
   * Sin estimacion
 
+---
 
 ## ✅ Logros
 - Tareas completadas 
@@ -24,6 +25,8 @@
 - Bugs resueltos
   * Sin novedad
 
+---
+
 ## ⚙️ Decisiones técnicas / cambios de dirección
 - Qué decidí hacer distinto y por qué
  * 
@@ -31,12 +34,15 @@
 - Referencia a documentación / dudas
   * 
 
+---
+
 ## 🚧 Bloqueos / impedimentos
 - Qué cosas me frenaron
   * Me sigo capacitando para poder hacer que el portal responda correctamente.
 
 - Qué necesito para resolverlos
 
+---
 
 ## ⏱️ Tiempo estimado vs real
 
@@ -47,17 +53,13 @@
  - Real:
 
   1. 13:00 – 15:00 → 2:00h
-  2. 15:00 – 17:30 → break (no contabilizado)
-  3. 17:30 – 19:30 → 2:00h
-  4. 19:20 – 02:00 → break (no contabilizado)
-  5. 02:00 – 04:00 → 2:00h
-  6. --:-- – --:-- → break (no contabilizado)
-  7. --:-- – --:-- → -:--h
-  8. --:-- – --:-- → break (no contabilizado)
+  2. 15:00 – 21:30 → break (no contabilizado)
+  3. 21:30 – 00:30 → 3:00h
 
 
+ - Total horas trabajadas: 2:00 + 3:00 = **5 horas y 00 minutos**
 
- - Total horas trabajadas: 2:00 + 2:00 + 2:00 = **6 horas y 00 minutos**
+ ---
 
 ## 📚 Lecciones Aprendidas / Notas útiles
 - Qué funcionó bien
@@ -79,4 +81,4 @@
 ## Detallado de actividades
 
  - 13:00 - Curso presencial de desarrollo de software con IA
- - 17:30 - Repaso y estudio del curso.
+ - 21:30 - Repaso y estudio del curso.
