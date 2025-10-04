@@ -59,10 +59,10 @@
   2. 20:30 – 20:50 → break (no contabilizado)
   3. 20:50 – 23:00 → 2:10h
   4. 23:00 – 01:30 → break (no contabilizado)
-  5. 01:30 – 03:00 → 1:30h
+  5. 01:30 – 03:40 → 2:10h
 
 
- - Total horas trabajadas: 2:00 + 2:00 = **5 horas y 10 minutos**
+ - Total horas trabajadas: 1:30 + 2:10 + 2:10 = **5 horas y 50 minutos**
 
  ---
 
@@ -75,7 +75,7 @@
 
 ## 🔮 Lo que voy a hacer mañana
 - Prioridades
-  * 
+  * Generar las tareas del primer Sprint
 
 - Tareas concretas
 
@@ -88,3 +88,4 @@
 -19:00 Preparacion de material y estudio para el examen del curso
 -22:00 Hice el examen, mas sencillo de lo que esperaba
 -22:45 Comienzo en la aplicacion de las abilidades aprendidas en la aplicacion en el proyecto.
+-01:30 Produciendo el Backlog completo
