@@ -1,4 +1,4 @@
-# 📓 Diario de Desarrollo — 02-10-2025 — jueves
+# 📓 Diario de Desarrollo — 03-10-2025 — viernes
 ## 🏃 Sprint
 - Sprint nro: 00
 - Semana: 02
@@ -8,6 +8,9 @@
 - Etapa de desarrollo: Inicio
 - Objetivo general del día: 
   * Curso de Desarrollo de Software con IA - Dia 3 y preparacion de examen
+  * Examen. Completado y aprobado
+  * Aplicacion del conocimiento adquido al proyecto. 
+  * Generacion de BackLog completo con Grok - Claude - ChatGPT y NotebookLM de Google
 
 
 - Estimación de tiempo
@@ -48,19 +51,18 @@
 
  - Planificado: 8 horas
 
- - Inicio: 22:00 pm
+ - Inicio: 19:00 pm
 
  - Real:
 
-  1. 22:00 – 00:00 → 2:00h
-  2. 00:00 – 02:30 → break (no contabilizado)
-  3. 02:30 – 04:30 → 2:00h
-  4. 04:30 – 05:00 → break (no contabilizado)
-  5. 05:00 – 06:30 → 1:30h
+  1. 19:00 – 20:30 → 1:30h
+  2. 20:30 – 20:50 → break (no contabilizado)
+  3. 20:50 – 23:00 → 2:10h
+  4. 23:00 – 01:30 → break (no contabilizado)
+  5. 01:30 – 03:00 → 1:30h
 
 
-
- - Total horas trabajadas: 2:00 + 2:00 = **5 horas y 30 minutos**
+ - Total horas trabajadas: 2:00 + 2:00 = **5 horas y 10 minutos**
 
  ---
 
@@ -83,5 +85,6 @@
 
 ## Detallado de actividades
 
- - 22:00 - Curso diferido de desarrollo de software con IA - Clase final
- - 02:30 - Repaso y estudio del curso. Preparacion de examen
+-19:00 Preparacion de material y estudio para el examen del curso
+-22:00 Hice el examen, mas sencillo de lo que esperaba
+-22:45 Comienzo en la aplicacion de las abilidades aprendidas en la aplicacion en el proyecto.
