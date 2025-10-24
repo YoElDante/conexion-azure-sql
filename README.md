@@ -8,7 +8,7 @@ Toda la documentación está en la carpeta [`/docs`](./docs):
 - [`/backlog`](./docs/backlog) → Lista de funcionalidades pendientes y deuda técnica.
 - [`/adr`](./docs/adr) → Architecture Decision Records (ADR).
 
-🔗 Tablero de planificación: [Trello del proyecto](https://trello.com/b/fl8himRl/crud-azure-sql)
+🔗 Tablero de planificación: [Trello del proyecto](https://trello.com/b/jRjXfJA1/portal-municipal-de-pagos)
 🐙 Repositorio[Repositorio en GitHub](https://github.com/YoElDante/conexion-azure-sql)
 
 ## 📌 Decisiones Técnicas (ADR)
