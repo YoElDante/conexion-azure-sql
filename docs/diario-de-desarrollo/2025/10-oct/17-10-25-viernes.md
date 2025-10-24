@@ -1,4 +1,4 @@
-# 📓 Diario de Desarrollo — 08-10-2025 — miercoles
+# 📓 Diario de Desarrollo — 23-10-2025 — jueves
 ## 🏃 Sprint
 - Sprint nro: 00
 - Semana: 03
@@ -7,11 +7,8 @@
 - Proyecto: Conexion y CRUD a base de datos en Azure 
 - Etapa de desarrollo: Inicio
 - Objetivo general del día: 
-  * Subir los primeros 3 SPRINTS como requisitos.
-  * Leer y terminar de confeccionar el 1 SPRINT
-  * Generar estimacions realistas de tiempos
-  * Comenzar a generar la lista de tareas en Trello
-  * Se creo la lista de tareas completas del SPRINT 1
+  * Generar Mockup del proyecto para mustra visible a potenciales clientes
+  * Volver a Instalar SQL Server que se habia desconectado y se actualizo corrupto
 
 
 - Estimación de tiempo
@@ -21,11 +18,7 @@
 
 ## ✅ Logros
 - Tareas completadas 
-  * Subir los primeros 3 SPRINTS como requisitos.
-  * Leer y terminar de confeccionar el 1 SPRINT
-  * Generar estimacions realistas de tiempos
-  * Comenzar a generar la lista de tareas en Trello
-  * Se creo la lista de tareas completas del SPRINT 1 - https://trello.com/b/jRjXfJA1/portal-municipal-de-pagos
+  * Se completo y se subio a GitHub Pages
 
 - Funcionalidades implementadas
   * sin novedad
@@ -37,7 +30,7 @@
 
 ## ⚙️ Decisiones técnicas / cambios de dirección
 - Qué decidí hacer distinto y por qué
- * Se cambio la idea de usar el MCP de GitHub Copilot, por el servicio brindado por https://zapier.com/ que funge la misma funcion sin gastar tokens ni recursos de la IA propia.
+  * 
 
 - Referencia a documentación / dudas
   * 
@@ -81,7 +74,6 @@
 
 ## 🔮 Lo que voy a hacer mañana
 - Prioridades
-  * Generar las tareas del primer Sprint
 
 - Tareas concretas
 
@@ -90,9 +82,7 @@
 ---
 
 ## Detallado de actividades
-
-- 21:30 - Generando SPINT 1
-- 22:30 - Trabajando el Backlog con Claude para generar la lista de tareas
-- 23:00 - Configurando VSCode para trabajar con Agentes y Servidores MCP y asi crear la lista de tareas en Trello automaticamente
-- 03:30 - Implementacion de _zapier para la generacion del trello del proyecto https://trello.com/b/jRjXfJA1/portal-municipal-de-pagos
+- Se cambiaron las prioridades y se necesita una visualizacion rapida del proyecto
+- Se genera Mockup en proyecto separado y se sube a Github pages
+- Se incorporan el mockup al proyecto, y se genera router para la nueva vista
 
